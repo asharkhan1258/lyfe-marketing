@@ -1,0 +1,2229 @@
+/* =========================================
+   lyfe marketing
+========================================= */
+
+#top-contact-bar {
+    width: 100%;
+    background: #1f1f1f;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Link */
+.top-bar-link {
+    width: 100%;
+    min-height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+
+    padding: 10px 20px;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.top-bar-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Schedule Button */
+.promo-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #1f9cd9;
+    color: #ffffff;
+
+    padding: 10px 22px;
+
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    transition: all 0.3s ease;
+}
+
+.promo-btn:hover {
+    background: #1789c0;
+}
+
+/* Main Promo Text */
+.promo-text {
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+/* Highlight Text */
+.w-low {
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+/* Arrow */
+.promo-arrow {
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.top-bar-link:hover .promo-arrow {
+    transform: translateX(5px);
+}
+/* =========================================
+   HEADER
+========================================= */
+
+.custom-header {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.custom-header .navbar {
+    min-height: 90px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.custom-header .container-fluid {
+    min-height: 90px;
+}
+
+
+/* =========================================
+   LOGO
+========================================= */
+
+.custom-logo {
+    display: flex;
+    align-items: center;
+}
+
+.custom-logo img {
+    width: 190px;
+    height: auto;
+    display: block;
+}
+
+
+/* =========================================
+   NAV LINKS
+========================================= */
+
+.custom-header .navbar-nav {
+    gap: 2px;
+}
+
+.custom-header .nav-link {
+    color: #222 !important;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    padding: 35px 11px !important;
+    white-space: nowrap;
+    transition: all 0.25s ease;
+}
+
+.custom-header .nav-link:hover {
+    color: #1f9cd9 !important;
+}
+
+
+/* =========================================
+   DROPDOWN
+========================================= */
+
+.custom-dropdown {
+    position: relative;
+}
+
+.custom-dropdown-menu {
+    border: 0;
+    border-radius: 0;
+    padding: 8px 0;
+    margin: 0;
+    min-width: 270px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    background: #fff;
+}
+
+
+/* Dropdown links */
+
+.custom-dropdown-menu .dropdown-item {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    padding: 11px 20px;
+    white-space: normal;
+    transition: all 0.2s ease;
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+    color: #1f9cd9;
+    background: #f5faff;
+    padding-left: 25px;
+}
+
+
+/* =========================================
+   HOVER DROPDOWN
+========================================= */
+
+@media (min-width: 992px) {
+
+    .custom-dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+
+    .custom-dropdown > .nav-link::after {
+        margin-left: 6px;
+        vertical-align: middle;
+    }
+
+}
+
+
+/* =========================================
+   SPECIAL LINKS
+========================================= */
+
+.special-link {
+    display: flex !important;
+    align-items: center;
+    gap: 6px;
+}
+
+.special-link i {
+    color: #1f9cd9;
+    font-size: 14px;
+}
+
+.special-link span {
+    color: #1f9cd9;
+}
+
+
+/* =========================================
+   SEARCH
+========================================= */
+
+.search-item {
+    position: relative;
+}
+
+.search-button i {
+    font-size: 17px;
+    color: #333;
+}
+
+.search-button:hover i {
+    color: #1f9cd9;
+}
+
+
+/* =========================================
+   SEARCH BOX
+========================================= */
+
+.navbar-search {
+    position: absolute;
+    right: 30px;
+    top: 90px;
+    width: 320px;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    display: none;
+}
+
+.navbar-search.show {
+    display: block;
+}
+
+.navbar-search form {
+    display: flex;
+}
+
+.navbar-search input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #ddd;
+    padding: 0 12px;
+    outline: none;
+    font-size: 14px;
+}
+
+.navbar-search input:focus {
+    border-color: #1f9cd9;
+}
+
+.navbar-search button {
+    width: 48px;
+    border: 0;
+    background: #1f9cd9;
+    color: #fff;
+}
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Background Image */
+
+.hero-background {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("https://www.lyfemarketing.com/wp-content/uploads/2019/11/lyfemarketing-team-e1591029054845.jpg");
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Black Overlay */
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #000;
+    opacity: 0.6;
+}
+
+
+/* Content */
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================================
+   TRUSTED SECTION
+========================================= */
+
+.trusted-section {
+    width: 100%;
+    padding: 35px 0 25px;
+    background: #fff;
+}
+
+.trusted-image-wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.trusted-image {
+    width: 100%;
+    max-width: 1084px;
+    height: auto;
+    display: inline-block;
+}
+
+
+/* =========================================
+   SOCIAL MANAGEMENT SECTION
+========================================= */
+
+.social-management-section {
+    width: 100%;
+    padding: 25px 0 70px;
+    background: #fff;
+}
+
+.social-management-content {
+    text-align: center;
+}
+
+
+/* =========================================
+   TITLE
+========================================= */
+
+.social-management-title {
+    margin: 0;
+    padding: 0;
+    color: #222;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3;
+    text-transform: uppercase;
+}
+
+
+/* =========================================
+   DIVIDER
+========================================= */
+
+.social-divider {
+    width: 70%;
+    height: 2px;
+    background: #efefef;
+    margin: 20px auto 28px;
+}
+
+
+/* =========================================
+   PARAGRAPH
+========================================= */
+
+.social-management-text {
+    margin: 0;
+    color: #555;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* =========================================
+   SERVICES SECTION
+========================================= */
+
+.services-section {
+    width: 100%;
+    background: #1f1f1f;
+    padding: 70px 0 80px;
+    overflow: hidden;
+}
+
+
+/* =========================================
+   TOP CONTENT
+========================================= */
+
+.services-top {
+    margin-bottom: 40px;
+}
+
+.services-small-text {
+    margin: 0 0 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.services-main-title {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.services-divider {
+    width: 70%;
+    height: 2px;
+    background: #efefef;
+    margin: 22px auto 0;
+    opacity: 0.8;
+}
+
+
+/* =========================================
+   SERVICE ICONS
+========================================= */
+
+.service-icons-row {
+    margin-bottom: 45px;
+}
+
+.service-icon {
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icon img {
+    width: 62px;
+    height: 60px;
+    object-fit: contain;
+    display: block;
+}
+
+
+/* =========================================
+   SERVICE CARDS
+========================================= */
+
+.service-cards {
+    align-items: stretch;
+}
+
+.service-card {
+    height: 100%;
+    background: #ffffff;
+    padding: 30px 25px 28px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   CARD TITLE
+========================================= */
+
+.service-title {
+    margin: 0;
+    min-height: 58px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.service-title a {
+    color: #222222;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.service-title a:hover {
+    color: #1f9cd9;
+}
+
+
+/* =========================================
+   CARD LINE
+========================================= */
+
+.service-line {
+    width: 20%;
+    height: 3px;
+    background: #999999;
+    margin: 18px 0 20px;
+}
+
+
+/* =========================================
+   CARD TEXT
+========================================= */
+
+.service-card p {
+    margin: 0 0 25px;
+    color: #555555;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.service-card p a {
+    color: #1f9cd9;
+    text-decoration: none;
+}
+
+.service-card p a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   LEARN MORE BUTTON
+========================================= */
+
+.service-btn {
+    display: inline-block;
+    align-self: center;
+    margin-top: auto;
+    padding: 12px 25px;
+    background: #1f9cd9;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
+}
+
+.service-btn:hover {
+    background: #1688bf;
+    color: #ffffff;
+}
+
+/* ==========================================
+   SOCIAL SERVICES CTA
+========================================== */
+
+.social-services-cta {
+    background: #f5f5f5;
+    padding: 55px 0;
+}
+
+.cta-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #393836;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #393836;
+    color: #ffffff;
+    padding: 16px 28px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #222222;
+    color: #ffffff;
+}
+
+
+/* ==========================================
+   SOCIAL MEDIA MANAGEMENT SECTION
+========================================== */
+
+.social-management-section {
+    background: #ffffff;
+    padding: 80px 0;
+}
+
+.section-main-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 38px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #393836;
+    text-align: center;
+    margin: 0 0 55px;
+}
+
+.content-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #393836;
+    margin-bottom: 28px;
+}
+
+.content-text {
+    font-family: "Open Sans", sans-serif;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.content-text p {
+    margin-bottom: 22px;
+}
+
+.content-text a {
+    color: #393836;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.management-image {
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    display: inline-block;
+}
+
+.additional-content {
+    margin-top: 30px;
+}
+
+.case-study-heading {
+    padding: 55px 0 50px;
+}
+
+.case-study-heading h2 {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1.35;
+    font-weight: 600;
+    color: #393836;
+}
+
+
+/* =========================================
+   CASE STUDIES SECTION
+========================================= */
+
+.case-studies-section {
+    padding: 20px 0 55px;
+}
+
+.case-study-video {
+    width: 100%;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.case-study-video iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* =========================================
+   QUOTE
+========================================= */
+
+.case-study-quote {
+    text-align: center;
+    padding: 20px 10px 10px;
+}
+
+.case-study-quote p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 2;
+    color: #393836;
+}
+
+.case-study-quote strong {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+/* =========================================
+   STATS
+========================================= */
+
+.case-study-stats {
+    padding: 25px 0 10px;
+}
+
+.case-study-stats h3 {
+    margin: 0 0 8px;
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: #393836;
+}
+
+.case-study-stats h4 {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #393836;
+}
+
+.stat-divider {
+    width: 2px;
+    height: 53px;
+    background: #393836;
+    margin: auto;
+}
+
+
+/* =========================================
+   DESCRIPTION
+========================================= */
+
+.case-study-description {
+    padding: 20px 0 0;
+}
+
+.case-study-description p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #393836;
+}
+
+
+/* =========================================
+   VIEW MORE
+========================================= */
+
+.view-more-section {
+    padding: 25px 0 70px;
+}
+
+.case-study-btn {
+    display: inline-block;
+    padding: 15px 32px;
+    border-radius: 0;
+    background: #393836;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.case-study-btn:hover {
+    background: #222222;
+    color: #ffffff;
+}
+
+
+/* =========================================
+   GOOGLE REVIEW BANNER
+========================================= */
+
+.review-banner-section {
+    padding: 40px 0 55px;
+}
+
+.review-banner {
+    width: 100%;
+    max-width: 1084px;
+}
+
+
+/* =====================================================
+   GENERAL
+===================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #393836;
+    background: #ffffff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: #393836;
+}
+
+
+/* =====================================================
+   COMMON SECTION
+===================================================== */
+
+.smm-intro-section,
+.testimonials-section,
+.why-social-section,
+.agency-do-section,
+.service-step-section {
+    padding: 70px 0;
+}
+
+.section-title {
+    margin: 0 0 35px;
+    color: #393836;
+    font-size: 34px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+
+/* =====================================================
+   INTRO SECTION
+===================================================== */
+
+.smm-intro-section {
+    padding-top: 55px;
+}
+
+.video-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    border: 0;
+}
+
+.intro-content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.custom-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #393836;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 0;
+    transition: 0.3s ease;
+}
+
+.custom-btn:hover {
+    background: #222222;
+    color: #ffffff;
+}
+
+
+/* =====================================================
+   TESTIMONIALS
+===================================================== */
+
+.testimonials-section {
+    background: #f8f8f8;
+}
+
+.testimonial-subtitle {
+    margin: -15px 0 50px;
+    font-size: 28px;
+    line-height: 1.4;
+}
+
+.testimonial-card {
+    height: 100%;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 190px;
+    height: 190px;
+    margin: 0 auto 25px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.testimonial-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-content {
+    padding: 0 10px;
+}
+
+.client-name {
+    margin-bottom: 25px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.client-name strong {
+    font-size: 20px;
+}
+
+.client-name span {
+    font-size: 16px;
+}
+
+.testimonial-heading {
+    margin-bottom: 18px;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.testimonial-content > p:last-child {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.65;
+}
+
+
+/* =====================================================
+   WHY SOCIAL MEDIA
+===================================================== */
+
+.why-social-section {
+    padding-top: 80px;
+}
+
+.heart-icon {
+    display: block;
+    width: 73px;
+    height: auto;
+    margin: 0 auto 25px;
+}
+
+.why-item {
+    margin-bottom: 40px;
+}
+
+.why-item h3 {
+    margin-bottom: 18px;
+    color: #393836;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.why-item p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   AGENCY CTA
+===================================================== */
+
+.agency-cta-section {
+    padding: 60px 0;
+    background: #f7f7f7;
+}
+
+.agency-cta-section .section-title {
+    margin-bottom: 0;
+}
+
+
+/* =====================================================
+   WHAT DOES AGENCY DO
+===================================================== */
+
+.agency-do-section {
+    padding-bottom: 35px;
+}
+
+.section-description {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* =====================================================
+   SERVICE STEPS
+===================================================== */
+
+.service-step-section {
+    padding: 65px 0;
+}
+
+.service-step-section + .service-step-section {
+    padding-top: 20px;
+}
+
+.step-icon {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.step-content {
+    padding-left: 20px;
+}
+
+.step-content h3 {
+    margin: 0 0 25px;
+    color: #393836;
+    font-size: 28px;
+    line-height: 1.35;
+    font-weight: 600;
+}
+
+.step-content p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.step-content a {
+    color: #393836;
+    text-decoration: underline;
+}
+
+
+/* =====================================================
+   STEP IMAGES
+===================================================== */
+
+.step-image {
+    margin: 35px 0;
+}
+
+.step-image img {
+    max-width: 850px;
+    width: 100%;
+}
+
+
+/* =====================================================
+   ADVERTISING IMAGES
+===================================================== */
+
+.advertising-images {
+    margin-top: 35px;
+}
+
+.advertising-image {
+    text-align: center;
+}
+
+.advertising-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* =========================================
+   COMMON
+========================================= */
+
+.hv-section-title {
+    margin: 0 0 25px;
+    font-size: 34px;
+    line-height: 1.3;
+    font-weight: 700;
+    color: #393836;
+}
+
+.hv-title-center {
+    text-align: center;
+}
+
+.hv-section-text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #393836;
+}
+
+.hv-content-text {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.hv-content-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.hv-primary-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #1f9cd9;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.hv-primary-btn:hover {
+    background: #393836;
+    color: #fff;
+}
+
+
+/* =========================================
+   PRICING
+========================================= */
+
+.hv-pricing-section {
+    padding: 70px 0;
+    background: #f7f7f7;
+}
+
+.hv-pricing-section .hv-section-title {
+    margin-bottom: 18px;
+}
+
+
+/* =========================================
+   COST SECTION
+========================================= */
+
+.hv-cost-section {
+    padding: 80px 0;
+}
+
+.hv-cost-intro {
+    margin: 0 auto 50px;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.hv-desktop-content {
+    display: flex;
+}
+
+.hv-mobile-content {
+    display: none;
+}
+
+
+/* =========================================
+   FULL SERVICE
+========================================= */
+
+.hv-full-service-section {
+    padding: 80px 0;
+    background: #f8f8f8;
+}
+
+.hv-full-service-section .hv-section-title {
+    margin-bottom: 55px;
+}
+
+.hv-second-content {
+    margin-top: 70px;
+}
+
+
+/* =========================================
+   BENEFITS / FIVE REASONS
+========================================= */
+
+.hv-benefits-section {
+    padding: 85px 0;
+}
+
+.hv-benefits-section .hv-section-title {
+    margin-bottom: 55px;
+}
+
+.hv-reason-row {
+    margin-bottom: 45px;
+}
+
+.hv-number {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1f9cd9;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 50%;
+}
+
+.hv-reason-title {
+    margin: 0 0 18px;
+    font-size: 24px;
+    line-height: 1.4;
+    font-weight: 700;
+    color: #393836;
+}
+
+
+/* =========================================
+   IMPORTANT BENEFITS
+========================================= */
+
+.hv-important-benefits-section {
+    padding: 85px 0;
+    background: #f7f7f7;
+}
+
+.hv-important-benefits-section .hv-section-title {
+    margin-bottom: 35px;
+}
+
+.hv-divider {
+    width: 100%;
+    height: 2px;
+    background: #ddd;
+    margin-bottom: 55px;
+}
+
+.hv-benefit-box {
+    padding: 45px 0;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.hv-benefit-box:last-child {
+    border-bottom: 0;
+}
+
+.hv-benefit-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.hv-benefit-title {
+    margin: 0 0 20px;
+    font-size: 28px;
+    line-height: 1.35;
+    font-weight: 700;
+    color: #393836;
+}
+
+
+/* =========================================
+   FINAL CTA
+========================================= */
+
+.hv-final-cta-section {
+    padding: 80px 0;
+}
+
+.hv-final-cta-section .hv-section-title {
+    max-width: 850px;
+    margin: 0 auto 35px;
+}
+
+
+/* =========================================================
+   LEAD SECTION
+========================================================= */
+
+.lead-section {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.lead-left {
+    background: #111111;
+    min-height: 100%;
+    padding: 60px 8%;
+    color: #ffffff;
+}
+
+.lead-title {
+    margin: 0 0 25px;
+    font-size: 34px;
+    line-height: 1.35;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.lead-title strong {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.lead-subtitle {
+    margin-bottom: 30px;
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #f7f7f7;
+}
+
+.lead-form-wrapper {
+    width: 100%;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form .form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 7px;
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+    min-height: 52px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    padding: 12px 15px;
+    font-size: 15px;
+    box-shadow: none;
+}
+
+.contact-form textarea.form-control {
+    min-height: 130px;
+    resize: vertical;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+    border-color: #111;
+    box-shadow: 0 0 0 0.15rem rgba(0, 0, 0, 0.08);
+}
+
+.contact-submit {
+    width: 100%;
+    min-height: 54px;
+    border: none;
+    border-radius: 4px;
+    background: #111;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.contact-submit:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+
+
+/* =========================================================
+   RIGHT SIDE
+========================================================= */
+
+.lead-right {
+    height: 100%;
+    padding: 55px 10%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone-contact {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.phone-contact span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #333333;
+}
+
+.phone-contact p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.phone-contact a {
+    color: #007bff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.phone-contact a:hover {
+    color: #0056b3;
+}
+
+
+/* =========================================================
+   RIGHT CONTENT BLOCKS
+========================================================= */
+
+.footer-content-block {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer-content-block h3 {
+    margin-bottom: 15px;
+    font-size: 23px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #333333;
+}
+
+.footer-content-block img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.testimonial-block {
+    margin-top: 5px;
+}
+
+.testimonial-block p {
+    margin: 12px 0 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+
+/* =========================================================
+   MAIN FOOTER
+========================================================= */
+
+.main-footer {
+    background: #171717;
+    color: #ffffff;
+    padding-top: 55px;
+}
+
+.footer-column {
+    height: 100%;
+}
+
+.footer-column h4 {
+    margin: 0 0 22px;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 700;
+}
+
+.footer-column ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    color: #bcbcbc;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.5;
+    transition: all 0.3s ease;
+}
+
+.footer-column a i {
+    margin-top: 4px;
+    font-size: 10px;
+    color: #ffffff;
+    flex-shrink: 0;
+}
+
+.footer-column a:hover {
+    color: #ffffff;
+    padding-left: 3px;
+}
+
+
+/* =========================================================
+   FOOTER BOTTOM
+========================================================= */
+
+.footer-bottom {
+    margin-top: 45px;
+    padding: 40px 0 50px;
+    border-top: 1px solid #2b2b2b;
+}
+
+.footer-logo {
+    width: 190px;
+    max-width: 100%;
+}
+
+.footer-description {
+    margin: 12px 0 10px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.copyright {
+    margin: 0;
+    color: #5d5d5d;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.footer-badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.semrush-badge {
+    width: 27px;
+    height: 27px;
+}
+
+.featured-logo {
+    width: 300px;
+    max-width: 100%;
+    filter: invert(100%);
+}
+
+
+/* =========================================================
+   BOOTSTRAP RESPONSIVE SUPPORT
+========================================================= */
+
+@media (max-width: 1199.98px) {
+
+    .lead-left {
+        padding: 50px 6%;
+    }
+
+    .lead-right {
+        padding: 45px 7%;
+    }
+
+    .lead-title {
+        font-size: 30px;
+    }
+
+    .phone-contact span {
+        font-size: 34px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+
+    .lead-left,
+    .lead-right {
+        min-height: auto;
+    }
+
+    .lead-left {
+        padding: 50px 6%;
+    }
+
+    .lead-right {
+        padding: 50px 6%;
+    }
+
+    .footer-column {
+        margin-bottom: 15px;
+    }
+
+    .footer-bottom {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+
+    .lead-left {
+        padding: 40px 25px;
+    }
+
+    .lead-right {
+        padding: 40px 25px;
+    }
+
+    .lead-title {
+        font-size: 27px;
+    }
+
+    .lead-subtitle {
+        font-size: 21px;
+        line-height: 30px;
+    }
+
+    .phone-contact span {
+        font-size: 30px;
+    }
+
+    .footer-column h4 {
+        font-size: 16px;
+    }
+
+    .footer-description {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+
+    .lead-left {
+        padding: 35px 18px;
+    }
+
+    .lead-right {
+        padding: 35px 18px;
+    }
+
+    .lead-title {
+        font-size: 24px;
+    }
+
+    .lead-subtitle {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .phone-contact span {
+        font-size: 26px;
+    }
+
+    .phone-contact p {
+        font-size: 15px;
+    }
+
+    .footer-bottom {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}
+/* =========================================
+   BOOTSTRAP RESPONSIVE
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .hv-section-title {
+        font-size: 30px;
+    }
+
+    .hv-pricing-section {
+        text-align: center;
+    }
+
+    .hv-pricing-section .hv-section-text {
+        margin-bottom: 25px;
+    }
+
+    .hv-desktop-content {
+        display: none;
+    }
+
+    .hv-mobile-content {
+        display: flex;
+    }
+
+    .hv-reason-title {
+        font-size: 22px;
+    }
+
+    .hv-number {
+        margin-bottom: 15px;
+    }
+
+    .hv-benefit-title {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .hv-pricing-section,
+    .hv-cost-section,
+    .hv-full-service-section,
+    .hv-benefits-section,
+    .hv-important-benefits-section,
+    .hv-final-cta-section {
+        padding: 55px 0;
+    }
+
+    .hv-section-title {
+        font-size: 26px;
+    }
+
+    .hv-cost-intro {
+        font-size: 18px;
+    }
+
+    .hv-content-text {
+        font-size: 15px;
+    }
+
+    .hv-reason-row {
+        margin-bottom: 35px;
+    }
+
+    .hv-reason-title {
+        font-size: 21px;
+    }
+
+    .hv-benefit-title {
+        font-size: 23px;
+    }
+
+    .hv-benefit-box {
+        padding: 35px 0;
+    }
+
+    .hv-primary-btn {
+        padding: 13px 22px;
+        font-size: 13px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE / TABLET
+===================================================== */
+
+@media (max-width: 991.98px) {
+
+    .smm-intro-section,
+    .testimonials-section,
+    .why-social-section,
+    .agency-do-section,
+    .service-step-section {
+        padding: 55px 0;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .step-content {
+        padding-left: 0;
+        margin-top: 25px;
+    }
+
+    .step-icon {
+        margin-bottom: 10px;
+    }
+
+    .testimonial-subtitle {
+        font-size: 24px;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+
+    .smm-intro-section,
+    .testimonials-section,
+    .why-social-section,
+    .agency-do-section,
+    .service-step-section {
+        padding: 45px 0;
+    }
+
+    .section-title {
+        font-size: 26px;
+        line-height: 1.35;
+    }
+
+    .intro-content {
+        margin-top: 10px;
+    }
+
+    .intro-content p,
+    .why-item p,
+    .step-content p {
+        font-size: 15px;
+        line-height: 1.75;
+    }
+
+    .testimonial-subtitle {
+        font-size: 21px;
+        margin-bottom: 35px;
+    }
+
+    .testimonial-card {
+        margin-bottom: 30px;
+    }
+
+    .testimonial-image {
+        width: 165px;
+        height: 165px;
+    }
+
+    .step-content h3 {
+        font-size: 24px;
+    }
+
+    .agency-cta-section {
+        padding: 45px 0;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .section-title {
+        font-size: 23px;
+    }
+
+    .custom-btn {
+        width: 100%;
+        text-align: center;
+        padding: 14px 18px;
+    }
+
+    .testimonial-subtitle {
+        font-size: 19px;
+    }
+
+    .testimonial-content > p:last-child {
+        font-size: 15px;
+    }
+
+    .step-content h3 {
+        font-size: 21px;
+    }
+
+    .step-icon {
+        width: 65px;
+        height: 65px;
+    }
+
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .case-study-heading {
+        padding: 45px 0 35px;
+    }
+
+    .case-study-heading h2 {
+        font-size: 30px;
+    }
+
+    .case-studies-section {
+        padding-top: 10px;
+    }
+
+    .case-study-stats {
+        padding-top: 20px;
+    }
+
+}
+
+
+@media (max-width: 767.98px) {
+
+    .case-study-heading {
+        padding: 35px 15px;
+    }
+
+    .case-study-heading h2 {
+        font-size: 26px;
+    }
+
+    .case-studies-section {
+        padding: 10px 15px 40px;
+    }
+
+    .case-study-quote {
+        padding-top: 18px;
+    }
+
+    .case-study-quote strong {
+        font-size: 20px;
+    }
+
+    .case-study-stats h3 {
+        font-size: 32px;
+    }
+
+    .case-study-stats h4 {
+        font-size: 14px;
+    }
+
+    .case-study-description p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .view-more-section {
+        padding: 20px 15px 50px;
+    }
+
+    .case-study-btn {
+        padding: 13px 24px;
+        font-size: 13px;
+    }
+
+    .review-banner-section {
+        padding: 30px 15px 40px;
+    }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .case-study-heading h2 {
+        font-size: 23px;
+    }
+
+    .case-study-stats h3 {
+        font-size: 28px;
+    }
+
+    .case-study-stats h4 {
+        font-size: 13px;
+    }
+
+    .case-study-quote strong {
+        font-size: 18px;
+    }
+
+    .stat-divider {
+        height: 45px;
+    }
+
+}
+
+/* ==========================================
+   BOOTSTRAP RESPONSIVE UTILITIES
+========================================== */
+
+@media (max-width: 991.98px) {
+    .social-services-cta {
+        text-align: center;
+    }
+
+    .cta-title {
+        font-size: 24px;
+    }
+
+    .section-main-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .content-title {
+        text-align: center;
+    }
+
+    .management-image {
+        max-width: 500px;
+    }
+}
+/* =========================================
+   MOBILE / TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .trusted-section {
+        padding: 25px 0 20px;
+    }
+
+    .social-management-section {
+        padding: 20px 0 50px;
+    }
+
+    .social-management-title {
+        font-size: 23px;
+    }
+
+    .social-divider {
+        width: 85%;
+        margin: 18px auto 24px;
+    }
+
+    .social-management-text {
+        font-size: 15px;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+}
+
+/* =========================================
+   MOBILE / TABLET
+   Bootstrap breakpoint = 992px
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .custom-header .navbar {
+        min-height: 75px;
+    }
+
+    .custom-header .container-fluid {
+        min-height: 75px;
+    }
+
+    .custom-logo img {
+        width: 165px;
+    }
+
+    .custom-header .navbar-collapse {
+        background: #fff;
+        padding: 15px 0 20px;
+        margin-top: 5px;
+    }
+
+    .custom-header .navbar-nav {
+        gap: 0;
+        align-items: stretch !important;
+    }
+
+    .custom-header .nav-link {
+        padding: 12px 15px !important;
+        border-bottom: 1px solid #eee;
+    }
+
+    .custom-dropdown-menu {
+        position: static !important;
+        width: 100%;
+        box-shadow: none;
+        border-top: 1px solid #eee;
+        padding: 0;
+    }
+
+    .custom-dropdown-menu .dropdown-item {
+        padding: 11px 30px;
+        border-bottom: 1px solid #f1f1f1;
+    }
+
+    .custom-dropdown-menu .dropdown-item:hover {
+        padding-left: 35px;
+    }
+
+    .special-link {
+        padding: 12px 15px !important;
+    }
+
+    .search-item {
+        border-bottom: 1px solid #eee;
+    }
+
+    .navbar-search {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+        padding: 10px 15px;
+    }
+
+    .navbar-toggler {
+        border: 0;
+        box-shadow: none !important;
+        padding: 5px 8px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 767.98px) {
+
+    .top-bar-link {
+        min-height: 54px;
+
+        gap: 10px;
+
+        padding: 9px 15px;
+
+        font-size: 14px;
+    }
+
+    .promo-btn {
+        padding: 9px 15px;
+        font-size: 13px;
+    }
+
+    .promo-arrow {
+        width: 18px;
+        height: 11px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 575.98px) {
+
+    .top-bar-link {
+        min-height: auto;
+
+        flex-wrap: wrap;
+
+        gap: 7px 10px;
+
+        padding: 10px 12px;
+
+        text-align: center;
+
+        font-size: 13px;
+    }
+
+    .promo-btn {
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+
+    .promo-text,
+    .w-low {
+        white-space: normal;
+    }
+
+    .promo-arrow {
+        width: 17px;
+        height: 10px;
+    }
+}

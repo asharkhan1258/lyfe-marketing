@@ -1,0 +1,801 @@
+/* ==========================================
+   EMAIL MARKETING INTRO
+========================================== */
+
+.email-intro-section {
+    background: #ffffff;
+}
+
+.email-section-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    line-height: 1.45;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 25px;
+}
+
+.email-intro-content {
+    
+    margin: 0 auto;
+}
+
+.email-intro-content p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 15px;
+}
+
+.email-intro-content a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+
+/* ==========================================
+   EMAIL MARKETING BENEFITS
+========================================== */
+
+.email-benefits-section {
+    background: #ffffff;
+}
+
+.email-benefit-card {
+    padding: 35px 30px;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+.email-benefit-icon {
+    margin-bottom: 22px;
+}
+
+.email-benefit-icon img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.email-benefit-card h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    line-height: 1.4;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 18px;
+}
+
+.email-benefit-card p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 0;
+}
+/* =========================================
+   EMAIL CONTENT SECTION
+========================================= */
+
+.email-content-section {
+    padding: 70px 0;
+    background: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* =========================================
+   CONTENT BLOCK
+========================================= */
+
+.email-content-block {
+    margin-bottom: 70px;
+}
+
+.email-content-title {
+    margin: 0 0 30px;
+    font-size: 32px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #222222;
+}
+
+
+.email-content-text p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
+}
+
+.email-content-text a {
+    color: #0b56c8;
+    text-decoration: none;
+}
+
+.email-content-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   EMAIL STATS
+========================================= */
+
+.email-stats-section {
+    margin-bottom: 80px;
+}
+
+.email-stat-row {
+    min-height: 105px;
+    padding: 22px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.email-stat-content {
+    flex: 1;
+}
+
+.email-stat-content strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 17px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #222222;
+}
+
+.email-stat-content p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #666666;
+}
+
+.email-stat-value {
+    min-width: 90px;
+    text-align: right;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 600;
+    color: #0b56c8;
+    white-space: nowrap;
+}
+
+
+/* =========================================
+   CASE STUDY
+========================================= */
+
+.email-case-study {
+    margin-bottom: 30px;
+}
+
+
+/* =========================================
+   REVIEW BANNER
+========================================= */
+
+.email-review-banner {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.email-review-banner img {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* =========================================
+EMAIL MARKETING SECTIONS
+========================================= */
+
+.email-pr-section {
+padding: 70px 0;
+}
+
+.email-pr-section-heading {
+margin-bottom: 45px;
+}
+
+.email-pr-section-heading h2 {
+font-family: "Poppins", sans-serif;
+font-size: 36px;
+line-height: 1.3;
+font-weight: 600;
+color: #1e1e1e;
+margin-bottom: 25px;
+}
+
+.email-pr-section-heading p {
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+line-height: 1.8;
+color: #555;
+margin-bottom: 18px;
+}
+
+/* =========================================
+HOW DO WE HELP
+========================================= */
+
+.email-pr-help-section {
+background: #fff;
+}
+
+.email-pr-help-item {
+margin-bottom: 35px;
+}
+
+.email-pr-help-content {
+padding-left: 10px;
+}
+
+.email-pr-help-content h3 {
+font-family: "Poppins", sans-serif;
+font-size: 27px;
+line-height: 1.4;
+font-weight: 500;
+color: #1e1e1e;
+margin-bottom: 15px;
+}
+
+.email-pr-help-content p {
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+line-height: 1.8;
+color: #555;
+margin-bottom: 15px;
+}
+
+.email-pr-check-icon {
+margin-right: 12px;
+font-size: 20px;
+vertical-align: middle;
+}
+
+.email-pr-link {
+color: inherit;
+text-decoration: underline;
+}
+
+.email-pr-link:hover {
+text-decoration: none;
+}
+
+/* =========================================
+PROVIDER SECTION
+========================================= */
+
+.email-pr-provider-section {
+background: #f8f9fb;
+}
+
+.email-pr-provider-section .email-pr-section-heading {
+margin-bottom: 0;
+}
+
+/* =========================================
+SERVICES
+========================================= */
+
+.email-pr-services-section {
+background: #fff;
+}
+
+.email-pr-service-card {
+padding: 40px 30px;
+border: 1px solid #eeeeee;
+background: #fff;
+transition: all 0.3s ease;
+}
+
+.email-pr-service-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+.email-pr-service-icon {
+margin-bottom: 22px;
+}
+
+.email-pr-service-icon img {
+width: 70px;
+height: 70px;
+object-fit: contain;
+}
+
+.email-pr-service-card h3 {
+font-family: "Poppins", sans-serif;
+font-size: 27px;
+line-height: 1.4;
+font-weight: 500;
+color: #1e1e1e;
+margin-bottom: 18px;
+}
+
+.email-pr-service-card p {
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+line-height: 1.8;
+color: #555;
+margin-bottom: 0;
+}
+
+/* =========================================
+GOAL SECTION
+========================================= */
+
+.email-pr-goal-section {
+background: #f8f9fb;
+}
+
+.email-pr-goal-section .email-pr-section-heading {
+margin-bottom: 45px;
+}
+
+.email-pr-goal-item {
+margin-bottom: 35px;
+}
+
+.email-pr-goal-item h3 {
+font-family: "Poppins", sans-serif;
+font-size: 28px;
+line-height: 1.4;
+font-weight: 500;
+color: #1e1e1e;
+margin-bottom: 12px;
+}
+
+.email-pr-goal-item p {
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+line-height: 1.8;
+color: #555;
+margin-bottom: 0;
+}
+/* =========================================
+   EMAIL MARKETING PAGE
+   Custom Prefix: email-pr-
+========================================= */
+
+.email-pr-section {
+    padding: 70px 0;
+}
+
+.email-pr-heading {
+    margin-bottom: 50px;
+}
+
+.email-pr-title {
+    margin: 0;
+    color: #1e1e1e;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+
+/* =========================================
+   WHY CHOOSE US
+========================================= */
+
+.email-pr-why-section {
+    background: #ffffff;
+}
+
+.email-pr-feature-row {
+    padding: 35px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.email-pr-feature-row:last-child {
+    border-bottom: 0;
+}
+
+.email-pr-number {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.email-pr-number img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.email-pr-feature-content {
+    padding-left: 10px;
+}
+
+.email-pr-feature-title {
+    margin: 0 0 18px;
+    color: #1e1e1e;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.email-pr-feature-content p,
+.email-pr-text-content p {
+    margin-bottom: 18px;
+    color: #555555;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.email-pr-feature-content p:last-child,
+.email-pr-text-content p:last-child {
+    margin-bottom: 0;
+}
+
+.email-pr-inline-link {
+    color: #019dd9;
+    text-decoration: underline;
+}
+
+.email-pr-inline-link:hover {
+    color: #017eae;
+}
+
+
+/* =========================================
+   BUSINESS BENEFIT
+========================================= */
+
+.email-pr-benefit-section {
+    background: #f8f9fa;
+}
+
+.email-pr-text-content {
+    
+    margin: 0 auto;
+}
+
+
+/* =========================================
+   CONSULTATION
+========================================= */
+
+.email-pr-consultation-section {
+    background: #ffffff;
+}
+
+.email-pr-consultation-content {
+    padding: 20px 0;
+}
+
+.email-pr-consultation-content .email-pr-title {
+    margin-bottom: 35px;
+}
+
+.email-pr-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 32px;
+    border: 0;
+    background: #019dd9;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.email-pr-button:hover {
+    background: #017eae;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+
+/* =========================================
+   OTHER SERVICES
+========================================= */
+
+.email-pr-other-services-section {
+    background: #f8f9fa;
+}
+
+.email-pr-other-services {
+    padding-top: 10px;
+}
+
+.email-pr-links-row {
+    margin-top: 45px;
+}
+
+.email-pr-link-column {
+    height: 100%;
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+}
+
+.email-pr-link-heading {
+    margin: 0 0 20px;
+    color: #1e1e1e;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.email-pr-link-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.email-pr-link-list li {
+    position: relative;
+    margin-bottom: 12px;
+    padding-left: 18px;
+}
+
+.email-pr-link-list li:last-child {
+    margin-bottom: 0;
+}
+
+.email-pr-link-list li::before {
+    content: "\f054";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    color: #019dd9;
+    font-family: "Font Awesome 6 Free";
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.email-pr-link-list a {
+    color: #555555;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.email-pr-link-list a:hover {
+    color: #019dd9;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .email-pr-section {
+        padding: 55px 0;
+    }
+
+    .email-pr-title {
+        font-size: 32px;
+    }
+
+    .email-pr-feature-title {
+        font-size: 25px;
+    }
+
+    .email-pr-feature-content {
+        padding-left: 0;
+    }
+
+    .email-pr-link-column {
+        margin-bottom: 25px;
+    }
+
+    .email-pr-links-row .col-12:last-child .email-pr-link-column {
+        margin-bottom: 0;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+
+    .email-pr-section {
+        padding: 45px 0;
+    }
+
+    .email-pr-heading {
+        margin-bottom: 30px;
+    }
+
+    .email-pr-title {
+        font-size: 27px;
+    }
+
+    .email-pr-feature-row {
+        padding: 30px 0;
+    }
+
+    .email-pr-number {
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+    .email-pr-feature-title {
+        font-size: 23px;
+    }
+
+    .email-pr-feature-content p,
+    .email-pr-text-content p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .email-pr-consultation-content .email-pr-title {
+        margin-bottom: 25px;
+    }
+
+    .email-pr-link-column {
+        padding: 25px 20px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    .email-pr-section {
+        padding: 40px 0;
+    }
+
+    .email-pr-title {
+        font-size: 24px;
+    }
+
+    .email-pr-feature-title {
+        font-size: 21px;
+    }
+
+    .email-pr-button {
+        width: 100%;
+        padding: 15px 20px;
+    }
+}
+/* =========================================
+RESPONSIVE
+========================================= */
+
+@media (max-width: 767.98px) {
+
+
+.email-pr-section {
+    padding: 50px 0;
+}
+
+.email-pr-section-heading {
+    margin-bottom: 35px;
+}
+
+.email-pr-section-heading h2 {
+    font-size: 28px;
+}
+
+.email-pr-section-heading p,
+.email-pr-help-content p,
+.email-pr-service-card p,
+.email-pr-goal-item p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.email-pr-help-content h3,
+.email-pr-service-card h3,
+.email-pr-goal-item h3 {
+    font-size: 23px;
+}
+
+.email-pr-help-item {
+    margin-bottom: 30px;
+}
+
+.email-pr-service-card {
+    padding: 30px 20px;
+}
+
+
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 991px) {
+
+    .email-content-section {
+        padding: 55px 0;
+    }
+
+    .email-content-block {
+        margin-bottom: 55px;
+    }
+
+    .email-content-title {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .email-stat-row {
+        min-height: auto;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+    .email-content-section {
+        padding: 45px 0;
+    }
+
+    .email-content-block {
+        margin-bottom: 45px;
+    }
+
+    .email-content-title {
+        font-size: 25px;
+        line-height: 1.35;
+    }
+
+    .email-content-text p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .email-stat-row {
+        padding: 20px 0;
+        gap: 15px;
+    }
+
+    .email-stat-content strong {
+        font-size: 15px;
+    }
+
+    .email-stat-content p {
+        font-size: 14px;
+    }
+
+    .email-stat-value {
+        min-width: 70px;
+        font-size: 23px;
+    }
+
+}
+
+
+@media (max-width: 575px) {
+
+    .email-content-title {
+        font-size: 23px;
+    }
+
+    .email-stat-row {
+        align-items: flex-start;
+    }
+
+    .email-stat-value {
+        min-width: 65px;
+        font-size: 21px;
+    }
+
+}

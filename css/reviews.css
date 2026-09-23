@@ -1,0 +1,969 @@
+/* ==========================================
+   GLOBAL
+========================================== */
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #252525;
+    margin: 0;
+    padding: 0;
+}
+
+.re-section {
+    width: 100%;
+    padding: 80px 0;
+}
+
+.re-section-title {
+    font-size: 38px;
+    line-height: 1.25;
+    font-weight: 500;
+    color: #1e1e1e;
+    text-align: center;
+    margin: 0 0 50px;
+}
+
+.re-text-content p,
+.re-client-content p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.re-text-content a,
+.re-client-content a {
+    color: #1e73be;
+    text-decoration: none;
+}
+
+.re-text-content a:hover,
+.re-client-content a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==========================================
+   HERO
+========================================== */
+
+.re-hero-section {
+    background-image: url(https://www.lyfemarketing.com/wp-content/uploads/2024/06/new-hero-reviews-png-1175x655.png);
+    background-size: cover;
+    background-position: center;
+    padding: 90px 0;
+}
+
+.re-hero-content {
+    padding-right: 30px;
+}
+
+.re-hero-title {
+    font-size: 85px;
+    line-height: 1.05;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin: 0 0 35px;
+}
+
+.re-hero-image {
+    text-align: center;
+}
+
+.re-hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* ==========================================
+   CHECK LIST
+========================================== */
+
+.re-check-list,
+.re-result-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 35px;
+}
+
+.re-check-list li,
+.re-result-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.re-check-list li {
+    font-size: 22px;
+}
+
+.re-check-icon {
+    color: #1e1e1e;
+    font-size: 15px;
+    margin-top: 7px;
+    flex-shrink: 0;
+}
+
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.re-primary-btn {
+    display: inline-block;
+    background: #1e1e1e;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    padding: 16px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.re-primary-btn:hover {
+    background: #333333;
+    color: #ffffff !important;
+}
+
+
+/* ==========================================
+   ABOUT SECTION
+========================================== */
+
+.re-about-section {
+    background: #ffffff;
+}
+
+.re-video-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.re-video-wrapper iframe,
+.re-testimonial-video iframe {
+    border: 0;
+}
+
+
+/* ==========================================
+   TESTIMONIAL
+========================================== */
+
+.re-testimonial-section {
+    background: #f7f7f7;
+}
+
+.re-testimonial-video {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.re-testimonial-caption {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 25px 0 0;
+}
+
+
+/* ==========================================
+   HIGHLIGHT HEADING
+========================================== */
+
+.re-highlight-heading {
+    padding-bottom: 40px;
+}
+
+.re-highlight-heading .re-section-title {
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   CLIENT SECTION
+========================================== */
+
+.re-client-section {
+    padding-top: 30px;
+    background: #ffffff;
+}
+
+
+/* ==========================================
+   BOOTSTRAP TABS
+========================================== */
+
+.re-client-tabs {
+    justify-content: flex-start;
+    gap: 8px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.re-client-tabs .nav-link {
+    color: #252525;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.re-client-tabs .nav-link:hover {
+    color: #ffffff;
+    background: #1e1e1e;
+    border-color: #1e1e1e;
+}
+
+.re-client-tabs .nav-link.active {
+    color: #ffffff;
+    background: #1e1e1e;
+    border-color: #1e1e1e;
+}
+
+.re-tab-content {
+    padding: 10px 0 40px;
+}
+
+
+/* ==========================================
+   CLIENT IMAGE
+========================================== */
+
+.re-client-image {
+    background: #f7f7f7;
+    padding: 25px;
+    text-align: center;
+}
+
+.re-client-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* ==========================================
+   CLIENT CONTENT
+========================================== */
+
+.re-client-content {
+    padding: 10px 0;
+}
+
+.re-client-title {
+    font-size: 28px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 25px;
+}
+
+.re-result-title {
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin: 30px 0 20px;
+}
+
+.re-result-list {
+    margin-bottom: 30px;
+}
+
+.re-result-list li {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+
+/* ==========================================
+   TAB ANIMATION
+========================================== */
+
+.re-tab-content .tab-pane {
+    transition: opacity 0.3s ease;
+}
+
+/* ==========================================
+   LYFE MARKETING REVIEWS
+========================================== */
+
+.re-reviews-section {
+    background: #f8f9fa;
+    font-family: "Poppins", sans-serif;
+}
+
+.re-reviews-title {
+    font-size: 38px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 12px;
+}
+
+.re-reviews-subtitle {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.re-review-card {
+    background: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.re-review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.09);
+}
+
+.re-review-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.re-review-platform {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #4285f4;
+}
+
+.re-profile-img {
+    width: 48px;
+    height: 48px;
+    flex: 0 0 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.re-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.re-profile-placeholder {
+    background: #eeeeee;
+    color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.re-profile-details {
+    min-width: 0;
+}
+
+.re-reviewer-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    line-height: 1.4;
+}
+
+.re-review-date {
+    font-size: 12px;
+    color: #888;
+    margin-top: 2px;
+}
+
+.re-review-stars {
+    display: flex;
+    gap: 3px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.re-review-stars i {
+    font-size: 15px;
+    color: #fbbc04;
+}
+
+.re-review-text {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #555;
+    margin: 0;
+}
+/* ==========================================
+   CONTACT FORM SECTION
+========================================== */
+
+.cont-form-title-section {
+    background: #222222;
+    padding: 55px 20px 45px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.cont-form-title {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 18px;
+}
+
+.cont-form-subtitle {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+/* ==========================================
+   CONTACT MAIN SECTION
+========================================== */
+
+.cont-contact-section {
+    background: #ffffff;
+    padding: 60px 20px 80px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* ==========================================
+   FORM
+========================================== */
+
+.cont-form-wrapper {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cont-iframe-wrapper {
+    width: 100%;
+    min-height: 678px;
+}
+
+.cont-contact-iframe {
+    display: block;
+    width: 100%;
+    height: 678px;
+    border: none;
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+
+/* ==========================================
+   RIGHT CONTENT
+========================================== */
+
+.cont-trust-content {
+    width: 100%;
+    padding: 10px 25px;
+}
+
+.cont-info-block {
+    margin-bottom: 48px;
+}
+
+.cont-info-block:last-child {
+    margin-bottom: 0;
+}
+
+.cont-info-title {
+    color: #222222;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0 0 22px;
+}
+
+.cont-info-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.cont-info-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* ==========================================
+   TESTIMONIAL
+========================================== */
+
+.cont-testimonial {
+    margin-top: 10px;
+}
+
+.cont-testimonial-text {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin: 0 0 12px;
+}
+
+.cont-testimonial-author {
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+/* ==========================================
+   BOOTSTRAP RESPONSIVE HELPERS
+========================================== */
+
+.cont-contact-section .row {
+    align-items: flex-start;
+}
+/* ==========================================
+   OUR WORK SECTION
+========================================== */
+
+.re-work-section {
+    background: #ffffff;
+    padding-top: 75px !important;
+    padding-bottom: 75px !important;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* ==========================================
+   TITLE
+========================================== */
+
+.re-work-title {
+    color: #1e1e1e;
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0 0 25px;
+}
+
+
+/* ==========================================
+   DESCRIPTION
+========================================== */
+
+.re-work-description {
+    color: #1e1e1e;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.45;
+    margin: 0 auto 35px;
+    max-width: 900px;
+}
+
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.re-work-button-wrapper {
+    text-align: center;
+}
+
+.re-work-button {
+    display: inline-block;
+    background: #1e1e1e;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    padding: 16px 32px;
+    border-radius: 0;
+    border: 2px solid #1e1e1e;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.re-work-button:hover {
+    background: #ffffff;
+    color: #1e1e1e;
+    border-color: #1e1e1e;
+}
+
+/* ==========================================
+   PORTFOLIO SECTION
+========================================== */
+
+.re-portfolio-section {
+    background: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 60px !important;
+    padding-bottom: 80px !important;
+}
+
+
+/* ==========================================
+   PORTFOLIO CARD
+========================================== */
+
+.re-portfolio-card {
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+
+/* ==========================================
+   IMAGE
+========================================== */
+
+.re-portfolio-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.re-portfolio-image img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+
+/* ==========================================
+   HOVER OVERLAY
+========================================== */
+
+.re-portfolio-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.re-portfolio-card:hover .re-portfolio-overlay {
+    opacity: 1;
+}
+
+.re-portfolio-card:hover .re-portfolio-image img {
+    transform: scale(1.05);
+}
+
+
+/* ==========================================
+   LINK ICON
+========================================== */
+
+.re-portfolio-icon {
+    width: 58px;
+    height: 58px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    transform: translateY(20px);
+    transition: all 0.35s ease;
+}
+
+.re-portfolio-card:hover .re-portfolio-icon {
+    transform: translateY(0);
+}
+
+.re-portfolio-icon:hover {
+    background: #ffffff;
+    color: #1e1e1e;
+}
+
+
+/* ==========================================
+   CONTENT
+========================================== */
+
+.re-portfolio-content {
+    padding: 22px 5px 10px;
+}
+
+.re-portfolio-title {
+    margin: 0 0 8px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.re-portfolio-title a {
+    color: #1e1e1e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.re-portfolio-title a:hover {
+    color: #555555;
+}
+
+
+/* ==========================================
+   CATEGORIES
+========================================== */
+
+.re-portfolio-categories {
+    color: #777777;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.re-portfolio-categories a {
+    color: #777777;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.re-portfolio-categories a:hover {
+    color: #1e1e1e;
+}
+/* ==========================================
+   LYFE MARKETING WINS
+========================================== */
+
+.re-wins-section {
+    width: 100%;
+    background: #ffffff;
+}
+
+.re-wins-title {
+    margin: 0 0 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: #1e1e1e;
+}
+
+.re-wins-description {
+    max-width: 950px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.re-wins-image-box {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.re-wins-image {
+    width: 80%;
+    height: 300px;
+    display: block;
+}
+/* ==========================================
+   CLIENT TESTIMONIALS
+========================================== */
+
+.cont-testimonials-section {
+    width: 100%;
+    background: #ffffff;
+}
+
+.cont-testimonials-title {
+    margin: 0 0 25px;
+    font-family: "Poppins", sans-serif;
+    font-size: 42px;
+    line-height: 1.25;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.cont-testimonials-description {
+    margin: 0 auto;
+    max-width: 1050px;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #333333;
+}
+
+
+/* ==========================================
+   SUCCESS CTA
+========================================== */
+
+.cont-success-section {
+    width: 100%;
+    background: #ffffff;
+}
+
+.cont-success-title {
+    margin: 0 auto 30px;
+    max-width: 1050px;
+    font-family: "Poppins", sans-serif;
+    font-size: 34px;
+    line-height: 1.35;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.cont-success-btn {
+    display: inline-block;
+    padding: 15px 32px;
+    background: #1e1e1e;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 0;
+    transition: all 0.3s ease;
+}
+
+.cont-success-btn:hover {
+    background: #333333;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* ==========================================
+   CLIENT TESTIMONIALS
+========================================== */
+
+.client-testimonials {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.section-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.section-description {
+    max-width: 1000px;
+    margin: 0 auto 45px;
+    font-size: 22px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: #444;
+}
+
+/* Video Card */
+
+.testimonial-video {
+    width: 100%;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.testimonial-video p {
+    margin: 15px 0 0;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #333;
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 991.98px) {
+
+    .cont-testimonials-title {
+        font-size: 36px;
+    }
+
+    .cont-testimonials-description {
+        font-size: 19px;
+    }
+
+    .cont-success-title {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .cont-testimonials-section,
+    .cont-success-section {
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+    }
+
+    .cont-testimonials-title {
+        font-size: 30px;
+        line-height: 1.3;
+        margin-bottom: 20px;
+    }
+
+    .cont-testimonials-description {
+        font-size: 17px;
+        line-height: 1.6;
+    }
+
+    .cont-success-title {
+        font-size: 25px;
+        line-height: 1.4;
+        margin-bottom: 25px;
+    }
+
+    .cont-success-btn {
+        padding: 14px 25px;
+        font-size: 13px;
+    }
+}
